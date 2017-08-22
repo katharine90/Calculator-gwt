@@ -1,34 +1,85 @@
 /** Add css rules here for your application. */
-
-
 /** Example rules used by the template application (remove for your app) */
 h1 {
-  font-size: 2em;
-  font-weight: bold;
-  color: #777777;
-  margin: 40px 0px 70px;
-  text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	color: #777777;
+	margin: 40px 0px 70px;
+	text-align: center;
 }
 
 .sendButton {
-  display: block;
-  font-size: 16pt;
+	display: block;
+	font-size: 16pt;
 }
 
 /** Most GWT widgets already have a style name defined */
 .gwt-DialogBox {
-  width: 400px;
+	width: 400px;
 }
 
 .dialogVPanel {
-  margin: 5px;
+	margin: 5px;
 }
 
 .serverResponseLabelError {
-  color: red;
+	color: red;
 }
 
 /** Set ids using widget.getElement().setId("idOfElement") */
 #closeButton {
-  margin: 15px 6px 6px;
+	margin: 15px 6px 6px;
 }
+
+#calc {
+	width: 500px;
+	padding: 20px;
+	background: #838383;
+	border-radius: 8px;
+	box-shadow: 5px 5px 5px #494d59;
+}
+
+.gwt-SuggestBox, .gwt-TextBox{
+width:140px;
+height:39px;		
+}
+
+.TextboxTable{
+ margin: 0px 0px 20px 0px;
+}
+
+button.gwt-Button {
+	width: 50px;
+	height: 50px;
+}
+
+.HistoryHeader {
+width: 240px;
+height: 40px;
+background: #bebebe;
+display: inline-table;
+}
+
+.watchList {
+	display: block;
+	border: 1px solid silver;
+	padding: 2px;
+	margin-bottom: 6px;
+	float: right;
+	margin-top: -200px;
+	width: 250px;
+}
+
+.watchListHeader {
+	text-align: center;
+}
+
+..historyRows {
+    background: red;
+    display: block;
+}
+
+.numberPanel{
+	float:left;
+}
+
