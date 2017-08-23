@@ -60,8 +60,6 @@ public class Claculator implements EntryPoint {
 	private MultiWordSuggestOracle oracle = new MultiWordSuggestOracle();
 	private SuggestBox operatorTextBox = new SuggestBox(oracle);
 	private FlexTable flexTable = new FlexTable();
-	
-	private List<String> list = new ArrayList();
 
 	Button[] numbers = new Button[10];
 	Button[] OPSign = new Button[6];
